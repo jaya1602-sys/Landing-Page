@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poetsen One", sans-serif;
+}
+
+h2{
+    margin: 0;
+}
+
+.container{
+    padding: 60px;
+    position: relative;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu span{
+    color: grey;
+}
+
+.menu span:hover{
+   color: black;
+}
+.boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+
+
+.box:first-child{
+    display: flex;
+   
+    flex-direction: column;
+    padding: 40px 0;
+    justify-content: flex-start;
+}
+
+.text1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.text2{
+    font-size:40px ;
+    margin-bottom: 20px;
+}
+
+.paragraph{
+    margin-bottom: 20px;
+}
+.paragraph p{
+    color: grey;
+}
+
+.paraspan{
+    color: black;
+}
+
+.exclusive{
+    color: rgb(65, 136, 65);
+}
+
+.btn{
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:rgb(65, 136, 65);
+    height: 50px;
+    border: none;
+}
+.box:last-child{
+    
+}
+
+.fotter{
+    display: flex;
+    justify-content: end;
+}
+.footerimg{
+    position: absolute;
+    right: 0;
+    top: 20;
+}
+.lastpara{
+    text-align: center;
+    color: grey;
+    margin-right: 500px;
+}
+
+.lasttext{
+  color: black;
+}
